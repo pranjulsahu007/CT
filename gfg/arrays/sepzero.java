@@ -17,17 +17,13 @@ public class sepzero
         if (num == 0)
           {
             count++;
-        
           }
+          else
+          {
         list.add(num);
+          }
     }
-    for(int i:list)
-    {
-        if(i==0)
-        {
-            list.remove(i);
-        }
-    }
+    
     for(int i=0;i<count;i++)
 {
     list.add(0);
